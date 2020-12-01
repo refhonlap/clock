@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Cyberverse.otf">
+
+    <style>
+        body {
+            background-color: black;
+        }
+
+        @font-face {
+            font-family: Cyberverse;
+            src: url(/Cyberverse.otf);
+        }
+
+        .container {
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+
+        .clock {
+            margin: 0;
+            text-align: center;
+            color: lightskyblue;
+            font-family: Cyberverse, sans-serif;
+            font-size: 3rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <p class="clock">óra 20:16:32</p>
+    </div>
+
+    <script src="/clock.js"></script>
+</body>
+
+</html>
